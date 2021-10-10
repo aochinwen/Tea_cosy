@@ -29,17 +29,18 @@ nav{
 }
 
 
-nav p {
+nav a {
     margin: 2%;
     text-decoration: underline;
     white-space: nowrap;
+    color: seashell;
 }
 
 div {
     width:100%;
 }
 
-.banner{
+.mission{
     display: flex;
     flex-direction:column;
     justify-content:center;
@@ -53,7 +54,7 @@ div {
     
 }
 
-.banner h4,h2{
+.mission h4,h2{
     width: 100%;
     background-color: black;
     margin:0;
@@ -72,6 +73,7 @@ div {
 .types .container img{
     width:300px;
     height: 200px;
+    border-radius:5%;
 }
 
 .location {
@@ -91,6 +93,7 @@ section h2{
 .cards{
     display:inline-flex;
     margin:2% 7%;
+    
 }
 
 #location1, #location2, #location3{
